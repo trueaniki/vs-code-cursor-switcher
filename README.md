@@ -1,4 +1,4 @@
-# VS Code Cursor Switcher
+# VS Code <-> Cursor Switcher
 
 This extension allows you to easily switch between Visual Studio Code and Cursor Editor while maintaining the current file and line position.
 
