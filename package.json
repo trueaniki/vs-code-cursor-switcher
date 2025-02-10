@@ -1,0 +1,50 @@
+{
+  "name": "vscode-cursor-switcher",
+  "displayName": "VS Code Cursor Switcher",
+  "description": "Easily switch between VS Code and Cursor Editor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-cursor-switcher.switchToCursor",
+        "title": "Switch to Cursor"
+      },
+      {
+        "command": "vscode-cursor-switcher.switchToVSCode",
+        "title": "Switch to VS Code"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "vscode-cursor-switcher.switchToCursor",
+        "key": "ctrl+shift+c",
+        "mac": "cmd+shift+c"
+      },
+      {
+        "command": "vscode-cursor-switcher.switchToVSCode",
+        "key": "ctrl+shift+v",
+        "mac": "cmd+shift+v"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "18.x",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2"
+  },
+  "icon": "images/icon.png"
+} 
