@@ -3,6 +3,7 @@
   "displayName": "VS Code Cursor Switcher",
   "description": "Easily switch between VS Code and Cursor Editor",
   "version": "0.0.1",
+  "publisher": "trueaniki",
   "engines": {
     "vscode": "^1.85.0"
   },
