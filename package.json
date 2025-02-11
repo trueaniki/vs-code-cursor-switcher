@@ -4,6 +4,10 @@
   "description": "Easily switch between VS Code and Cursor Editor",
   "version": "0.0.1",
   "publisher": "trueaniki",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trueaniki/vs-code-cursor-switcher.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
