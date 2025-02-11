@@ -1,6 +1,6 @@
 {
   "name": "vscode-cursor-switcher",
-  "displayName": "VS Code Cursor Switcher",
+  "displayName": "VS Code <-> Cursor Switcher",
   "description": "Easily switch between VS Code and Cursor Editor",
   "version": "0.0.1",
   "publisher": "trueaniki",
